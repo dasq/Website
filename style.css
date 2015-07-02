@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h2 {
+	font-family: "Arvo";
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	color: #aaa;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+section {
+	height: 600px;
+}
+  
+#menu {
+	background-color: #87532b;
+	height: 80px;
+
+}
+
+#nav { width: 410px; float: right; margin-top: 20px; }
+
+#logo a { 
+	color: #fff; 
+	text-decoration: none; 
+	float: left; 
+	font-size: 30px; 
+	margin-top: 20px; 
+	color: #fff; 
+	font-family:"Wellfleet"; 
+	font-weight: bold; 
+	}
+	
+#nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#nav li{
+    margin-top: 9px;
+    float: left;
+    padding-left: 9px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+
+#about {
+	/*background: url("img/+3/DSC01939.JPG"); */
+	color: #fff;
+	height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+	}
+	
+#music{
+	height: 600px;
+	/*background:url("img/+3/DSC01942.JPG")*/
+	}
+
+#pictures{
+	height: 600px;
+	/*background:url("img/+3/DSC01953.JPG")*/
+	}
+
+#tour{
+	height: 600px;
+	/*background:url("img/+3/DSC02074.JPG")*/
+	}
+
+#contact{
+	height: 600px;
+	/*height: 600px;*/
+}
+
+
+
