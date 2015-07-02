@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Basic Page Needs
+  ================================================== -->
+        <meta charset="utf-8" />
+        <title>Farid Bentchakal</title>
+		<meta name="description" content="Farid Bentchakal. Acoustic, guitar, solo music.">
+		<meta name="author" content="Farid Bentchakal">
+		<meta name="keywords" content="Farid Bentchakal, Music, Guitar, Acoustic, Travel.">
+		<!--[if lt IE 9]>
+            <script src="http://github.com/aFarkas/html5shiv/blob/master/dist/html5shiv.js"></script>
+        <![endif]-->
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery.sticky.js"></script>
+		<script>
+		  $(document).ready(function(){
+			$("#menu").sticky({topSpacing:0});
+		  });
+		</script>
+		<script src="js/parallax.js-master/parallax.min.js"></script>
+		<script>
+		<!----- JQUERY FOR SLIDING NAVIGATION --->   
+		$(document).ready(function() {
+		$('a[href*=#]').each(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+		&& location.hostname == this.hostname
+		&& this.hash.replace(/#/,'') ) {
+		var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+		var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+		if ($target) {
+		var targetOffset = $target.offset().top;
+		$(this).click(function() {
+					$("#nav li a").removeClass("active");
+					$(this).addClass('active');
+		$('html, body').animate({scrollTop: targetOffset}, 1000);
+		return false;
+		});
+		}
+		}
+		});
+		 
+		});
+		</script>
+		
+    </head>
+	
+	<body>
+	
+		<header>
+			<img id="banner" src='img/logo.jpg' alt="banner">
+		</header>
+		
+		<div id="menu">
+				<div id="logo"> <a href="#banner">Farid Bentchakal</a> </div>
+				<nav id="nav" class="fixed-nav-bar" style="">
+					<ul>
+						<li><a class="lien" href="#about">About</a></li>
+						<li><a class="lien" href="#music">Music</a></li>
+						<li><a class="lien" href="#pictures">Pictures</a></li>
+						<li><a class="lien" href="#tour">Tour dates</a></li>
+						<li><a class="lien" href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+		</div>
+		<section id="separator-1" data-parallax="scroll" data-image-src="img/+3/DSC01313.JPG">	
+		</section>
+		
+			<div id="about">
+				<div class="box">
+					<h2> About </h2>
+					<p> I am the best of the world that you never saw and that you will never see. </p>
+					<a href="#banner"> Go to the top my friend </a>
+				</div>
+			</div>
+		
+		<section id="slide-2" data-parallax="scroll" data-image-src="img/+3/DSC01939.JPG">	
+		</section>
+
+		<div id="music">
+			<div class="box">
+				<h2> Music </h2>
+				<p>  You can listen to my music here </br> Enjoy bro !!! </p>
+			</div>
+		</div>
+		
+		<section id="slide-3" data-parallax="scroll" data-image-src="img/+3/DSC01942.JPG">	
+		</section>
+
+		<div id="pictures">
+			<div class="box">
+				<h2> Pictures </h2>
+				<p>  </br> You can travel with me </br> Fasten seat bro !!! </p>
+			</div>
+		</div>
+		
+		<section id="slide-4" data-parallax="scroll" data-image-src="img/+3/DSC01953.JPG">		
+		</section>
+
+		<div id="tour">
+			<div class="box">
+				<h2> Tour dates </h2>
+				<p>  </br> Nothing yet but coming soon... </br> Stay in tune bro !!! </p>
+			</div>
+		</div>
+		
+		<section id="slide-5" data-parallax="scroll" data-image-src="img/+3/DSC02074.JPG">	
+		</section>
+
+		<div id="contact">
+			<div class="box">
+				<h2> Contact </h2>
+				<p>  </br> You can send me jokes or love messages or a mail to say to go fuck myself </br> As you wish bro !!! </p> 
+			</div>
+		</div>
+		
+	</body>	
+	
+</html>
